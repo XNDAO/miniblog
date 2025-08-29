@@ -36,13 +36,9 @@ const Dashboard = () => {
 				</div>
 			) : (
 				<>
-					<div className={styles.post_header}>
-						<span>Título</span>
-						<span>Ações</span>
-					</div>
 
 					{posts && posts.map((post) => <div key={post.id} className={styles.post_row}>
-						<p>{post.title}</p>
+						<p>Título: {post.title}</p>
 						<div className={styles.dashboard_button}>
 							<Link to={`/posts/${post.id}`} className='btn btn-outline'>Ver post</Link>
 							<Link to={`/posts/edit/${post.id}`} className='btn btn-outline'>Editar post</Link>
