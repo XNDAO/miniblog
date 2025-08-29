@@ -2,6 +2,7 @@ import styles from './Post.module.css';
 import { useParams, useNavigate } from 'react-router-dom'; // Adicione useNavigate
 import { useFetchDocument } from '../../hooks/useFetchDocument';
 import { useAuthValue } from '../../context/AuthContext';
+import { Link } from 'react-router-dom'
 
 const Post = () => {
     const { id } = useParams()
@@ -22,7 +23,12 @@ const Post = () => {
             </div>
 
             {!user && (
-                <p>É necessário fazer login para visualizar os detalhes dos posts.</p>
+                <>
+                    <p>Faça login para realizar buscas</p>
+                    <Link to='/login' className='btn btn-outline'>
+                        Fazer Login
+                    </Link>
+                </>
             )}
             {user && loading && <p>Carregando...</p>}
             {user && post && (

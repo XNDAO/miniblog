@@ -18,3 +18,13 @@
 .footer_orange {
   color: orange;
 }
+
+.footer a {
+  font-size: 12px;
+  transition: 0.4s;
+}
+
+.footer a:hover {
+  transition: 0.4s;
+  scale: 1.1;
+}
