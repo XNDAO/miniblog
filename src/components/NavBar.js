@@ -61,7 +61,7 @@ const NavBar = () => {
         </li>
         {user && (
           <li>
-            <button onClick={() => { logout(); closeMenu(); }}>Sair</button>
+            <button onClick={() => { logout(); closeMenu(); window.location.reload(true) }}>Sair</button>
           </li>
         )}
       </ul>
