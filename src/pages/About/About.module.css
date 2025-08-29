@@ -1,0 +1,28 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  background-color: #000000aa;
+  padding: 10px;
+  width: 60%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about p {
+  color: #ffffff;
+  margin-bottom: 2em;
+}
+
+.about a {
+  display: block;
+  margin-top: 15px;
+  color: #ffffff;
+}
+
+.about.btn {
+  height: 200px;
+}

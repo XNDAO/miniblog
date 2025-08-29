@@ -1,0 +1,33 @@
+.edit_post {
+  text-align: center;
+  color: #fff;
+}
+
+.edit_post form {
+  background-color: #000000aa;
+  padding: 10px;
+}
+
+.edit_post h2 {
+  font-size: 2.2em;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.edit_post p {
+  margin-bottom: 2em;
+}
+
+.edit_post .preview_title {
+  margin-bottom: 0.2em;
+  font-weight: bold;
+}
+
+.image_preview {
+  max-width: 100%;
+  margin-bottom: 1em;
+}
+
+form img {
+  max-width: 100%;
+}

@@ -1,0 +1,25 @@
+.register {
+  text-align: center;
+  color: #fff;
+  padding-top: 20px;
+}
+
+.register h1 {
+  background-color: #000000aa;
+  padding: 10px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.register form {
+  background-color: #000000aa;
+  padding: 10px;
+}
+
+.register p {
+  color: #fff;
+  background-color: #000000aa;
+  padding: 10px;
+  width: 90%;
+  margin: 0 auto;
+}
